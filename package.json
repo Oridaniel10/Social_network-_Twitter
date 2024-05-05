@@ -1,0 +1,21 @@
+{
+  "name": "twitter-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node myApp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^6.2.0",
+    "mongoose": "^7.6.3",
+    "pug": "^3.0.2"
+  }
+}
