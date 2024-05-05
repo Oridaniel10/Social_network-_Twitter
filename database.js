@@ -8,7 +8,7 @@ class Database
     }
      connect()
      {
-        mongoose.connect("mongodb+srv://ori:ori123@twitterclone.00htcoa.mongodb.net/TwitterCloneDB")
+        mongoose.connect("mongodb+srv://username:password@twitterclone.00htcoa.mongodb.net/NameofCOLLECTION")
 
         .then(()=>{
         console.log("mongo connected")
